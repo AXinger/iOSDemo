@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "SNCoreScaner.h"
 
 @interface ViewController ()
+
+@property(nonatomic,strong)SNCoreScaner *coreScaner;
 
 @end
 
@@ -17,6 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 
